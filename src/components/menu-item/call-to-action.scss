@@ -1,0 +1,15 @@
+.call-to-action {
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+  padding: 0 10px;
+  height: 40%;
+  &:hover {
+    border-bottom: 3px solid orangered;
+    p {
+      font-size: 1.1em;
+      color: green;
+      font-weight: bold;
+    }
+  }
+}

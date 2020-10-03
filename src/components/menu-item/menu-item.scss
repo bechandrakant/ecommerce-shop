@@ -1,0 +1,45 @@
+.menu-card {
+  height: 300px;
+  width: 32%;
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .menu-card-content {
+    height: 96%;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.menu-card-large {
+  height: 400px;
+  width: 49%;
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .menu-card-content {
+    height: 98%;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
